@@ -3,8 +3,7 @@
   "version": "0.2.5",
   "description": "easy wechat payment api for document v3.3.5",
   "main": "index.js",
-  "scripts":
-  {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,12 +12,22 @@
   ],
   "author": "spud",
   "license": "MIT",
-  "dependencies":
-  {
+  "dependencies": {
     "md5": "^2.0.0",
     "request": "^2.45.0",
     "sha1": "^1.1.0",
     "underscore": "^1.7.0",
     "xml2js": "^0.4.4"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taibushuang/easy-wechat-pay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taibushuang/easy-wechat-pay/issues"
+  },
+  "homepage": "https://github.com/taibushuang/easy-wechat-pay#readme"
 }
